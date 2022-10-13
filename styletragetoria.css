@@ -1,0 +1,45 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&family=Montserrat:ital,wght@0,300;1,100&family=Roboto+Condensed:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}*/    
+
+body{
+   
+    background-image : url('C:/Users/flavi/Desktop/Progradores Cariocas/exer 1 portifólio/imagens/fundo.jpg');
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+/*}*/
+.foto {
+    padding: 50px;
+    text-align: right;
+    padding-top: 0px;
+    
+    
+}
+img.foto-perfil {
+    border-radius: 30%;
+    text-align: left;
+    transition: all .3s;
+    
+}
+img.foto-perfil:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);                                                                                                                                                                                                                                                                                     
+    
+    
+}
+.nav {
+    display: flex;
+    background: rgb(211,219,224);
+    background: radial-gradient(circle, rgba(211,219,224,1) 0%, rgba(255,190,190,0.7175245098039216) 72%, rgba(226,180,180,0.7175245098039216) 100%);    font-size: 15px;
+    justify-content: space-evenly;
+    width: 250px;
+}
+
+.contato{
+    text-align: center;  
+}
