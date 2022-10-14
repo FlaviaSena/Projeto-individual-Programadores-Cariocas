@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&family=Montserrat:ital,wght@0,300;1,100&family=Roboto+Condensed:wght@300&display=swap');
+
+
+body{
+    background-image: url(../teste/imagens/fundo.jpg);
+     font-family: Arial, Helvetica, sans-serif;
+     
+}
+#menu-h{
+    background-color: rgba(0, 0, 0, 0.432);
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    margin: 0%;
+    border: 0px;
+    height: 50px;
+
+    
+}
+#menu-h li a{
+    color:black;
+    text-decoration: none;
+    padding: 20px;
+}
+ /* Primeira parte feito*/
+
+ div{
+    width: 600px;
+    display: inline-block;
+    text-align: center;
+ }
+#quem-sou{
+color: rgb(0, 0, 0);
+background-color: azure;
+margin-left: 70px;
+
+}
+#hobbies{
+color: rgb(0, 0, 0);
+background-color: azure;
+}
+#contato , a{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+#formulario{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.palavra-lin a{
+    color: rgb(54, 42, 165);
+}
+.palavra-git a {
+    color: rgb(54, 42, 165);
+}
+
+.palavra-lin a:hover{
+    color: rgb(255, 0, 191);
+}
+.palavra-git a:hover {
+    color: rgb(255, 0, 191);
+}
+
+input{
+    background-color: azure;
+}
+textarea{
+    background-color: azure;
+}
+button{
+    background-color: rgb(0, 137, 161);
+}
+
+footer p{
+    text-align: center;
+}
