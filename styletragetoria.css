@@ -14,7 +14,6 @@ img.foto-perfil {
     border-radius: 30%;
     text-align: right;
     transition: all .3s;
-    
 }
 img.foto-perfil:hover{
     -webkit-transform: scale(1.1);
